@@ -185,6 +185,10 @@ body {
   color: #fff;
 }
 
+/* .colorchange{ */
+  /* color:transparent; */
+/* } */
+
 .dark-bg p {
   color: #fff;
 }
@@ -610,6 +614,29 @@ banner
 */
 
 /*  */
+/* bg for province genre */
+
+.genre {
+  background-image: linear-gradient(rgba(122, 77, 237, 0.334), rgba(242, 248, 65, 0.307)), url(../images/poo.jpg);
+/* background-image: url(nepashraybg.jpg); */
+  /* background-image: url(https://images.unsplash.com/photo-1545919102-d75ddebda6d7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-shadow: #fbf9f9c2;
+  /* letter-spacing: 5px; */
+  
+  padding: 150px 0px 0px 0px;
+  
+  position: relative;
+  margin-left: 20px;
+}
+
+
+
+
+
+
 
 .main-banner {
   background-image: linear-gradient(rgba(163, 31, 13, 0.5), rgba(13, 7, 6, 0.3)), url(../images/nepashraybg.jpg);
@@ -828,7 +855,7 @@ Venues & Tickets
 }
 
 .venue-item .down-content {
-  background-color: #656c74;
+  background-color: #9c0404;
   position: relative;
   display: inline-block;
   z-index: 1;
@@ -943,7 +970,7 @@ Coming Events // province blockk
   letter-spacing: 1px;
   
 
-  background-color: #f152df;
+  background-color: #5f52f1;
   padding: 120px 0px;
   position: relative;
 }
@@ -979,11 +1006,15 @@ Coming Events // province blockk
 .event-item .thumb img {
   width: 100%;
   overflow: hidden;
+  
+  /* position:absolute; */
+  
 }
 
 .event-item .down-content {
   background-color: #fff;
   padding: 30px;
+  /* position:absolute; */
 }
 
 .event-item .down-content h4 {
@@ -991,6 +1022,9 @@ Coming Events // province blockk
   font-weight: 700;
   color: #2a2a2a;
   margin-bottom: 25px;;
+  /* position:absolute;
+ */
+ 
 }
 
 .event-item .down-content ul li {
@@ -1445,45 +1479,51 @@ About Us Page
 
 /*
 ---------------------------------------------
-Rent Venue Page
+Rent Venue Page // koshi page
 ---------------------------------------------
 */
 
 .page-heading-rent-venue {
-  background-image: url(../images/rent_venue_bg.jpg);
+  /* background-image: url(../images/koshiibg.jpg); */
+  /* background-image: linear-gradient(rgba(19, 203, 249, 0.378), url(../images/koshiibg.jpg); */
+  background-image: linear-gradient(rgba(93, 240, 228, 0.112), rgba(252, 179, 207, 0.058)), url(../images/koshiibg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 110px 0px;
+  padding: 120px 0px;
   text-align: center;
 }
 
 .page-heading-rent-venue h2 {
   font-size: 50px;
-  color: #fff;
-  font-weight: 800;
-  margin-bottom: 15px;
+  color: #fb3db2e8;
+  font-weight: 600;
+  margin-bottom:15px;
+  letter-spacing:6px;
 }
 
 .page-heading-rent-venue span {
-  font-size: 20px;
-  color: #fff;
+  font-size: 22px;
+  color: #ffffff8f;
   font-weight: 300;
   padding: 0px 250px;
   display: inline-block;
+  letter-spacing: 4px;
 }
 
 .rent-venue-tabs .heading-tabs {
   padding: 20px 0px;
-  border-bottom: 1px dotted #d7dadc;
+  border-bottom: 1px dotted #a1d3f5;
 }
 
 .rent-venue-tabs .heading-tabs .main-dark-button {
-  text-align: right;
+  text-align: center;
+  
 }
 
 .rent-venue-tabs #tabs ul {
   margin-top: 10px;
   padding: 0;
+  
 }
 .rent-venue-tabs #tabs ul li {
   display: inline-block;
@@ -1491,6 +1531,7 @@ Rent Venue Page
 }
 .rent-venue-tabs #tabs ul li:last-child {
   margin-right: 0px;
+
 }
 .rent-venue-tabs #tabs ul li a {
   text-transform: capitalize;
@@ -1532,7 +1573,7 @@ Rent Venue Page
 .rent-venue-tabs .tabs-content h4 {
   font-size: 30px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #131313;
   margin-bottom: 25px;
 }
 .rent-venue-tabs .tabs-content ul.list {
@@ -1609,7 +1650,7 @@ Rent Venue Page
   display: inline-block;
   font-size: 14px;
   padding: 12px 18px;
-  background-color: #343a3e;
+  background-color: #2f2033;
   color: #fff;
   text-align: center;
   font-weight: 500;
@@ -1653,7 +1694,7 @@ Shows Events Page
 }
 
 .shows-events-tabs {
-  background-color: #f0f0f1;
+  background-color: #770b7e;
 }
 
 .shows-events-tabs .heading-tabs {
@@ -1663,15 +1704,18 @@ Shows Events Page
 
 .shows-events-tabs .heading-tabs .main-dark-button {
   text-align: right;
+  color: #7120e9;
 }
 
 .shows-events-tabs #tabs ul {
   margin-top: 10px;
   padding: 0;
+  
 }
 .shows-events-tabs #tabs ul li {
   display: inline-block;
   margin-right: 30px;
+  
 }
 .shows-events-tabs #tabs ul li:last-child {
   margin-right: 0px;
@@ -1784,6 +1828,7 @@ Shows Events Page
 
 .shows-events-tabs .tabs-content .event-item .left-content {
   padding: 30px;
+  background-image: url(../images/streeet.jpg);
 }
 
 .shows-events-tabs .tabs-content .event-item .left-content h4 {
@@ -1814,6 +1859,7 @@ Shows Events Page
 
 .shows-events-tabs .tabs-content .event-item .right-content {
   padding: 10px 30px 10px 0px;
+  
 }
 
 .shows-events-tabs .tabs-content .event-item .right-content ul li i {
@@ -2237,34 +2283,45 @@ Event Details Page
   background-color: #f0f0f1;
 }
 
+
+h2 {
+  /* color:transparent */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 249, 255, 0.264);
+  
+}
+
+
 .shows-events-schedule ul li {
-  background-color: #fff;
+  /* background-color: #7c24a45c; */
   padding: 30px 30px 25px 30px;
   margin-bottom: 30px;
+  /* background-image: url(../images/yy.jpg); */
+  
 }
 
 .shows-events-schedule ul li .title h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #141313;
 }
 
 .shows-events-schedule ul li .title span {
   font-size: 14px;
   font-weight: 700;
-  color: #656c74;
+  color: #111112;
 }
 
 .shows-events-schedule ul li .time span {
   font-size: 14px;
-  color: #2a2a2a;
+  color: #0d0d0d;
   font-weight: 300;
   display: inline-block;
   width: 200px;
 }
 
 .shows-events-schedule ul li .time span i {
-  color: #7c838b;
+  color: #141515;
   margin-right: 10px;
   width: 15px;
   height: 25px;
@@ -2290,6 +2347,8 @@ Event Details Page
 
 .shows-events-schedule ul li .main-dark-button {
   text-align: right;
+  
+  
 }
 
 .shows-events-schedule .pagination ul {
@@ -2319,7 +2378,7 @@ Event Details Page
 
 .shows-events-schedule .pagination ul li a:hover,
 .shows-events-schedule .pagination ul li.active a {
-  background-color: #343a3e;
+  background-color: #b72ad3;
   color: #fff!important;
 }
 
@@ -2608,3 +2667,12 @@ responsive
     -webkit-transform: translateY(0px);
             transform: translateY(0px); } 
 }
+
+
+
+
+/* new new */
+.image-contain{
+  object-fit: cover;
+}
+

@@ -1,10 +1,5 @@
-/*
 
-Tooplate 2125 ArtXibition
 
-https://www.tooplate.com/view/2125-artxibition
-
-*/
 
 /* ---------------------------------------------
 Table of contents
@@ -78,9 +73,27 @@ ul, li {
   list-style: none;
 }
 
-header, nav, section, article, aside, footer, hgroup {
+header, section, article, aside, footer, hgroup {
   display: block;
 }
+
+/* below nav effect probs january */
+
+.main-nav a {
+
+display:block;
+transition: .3s;
+
+}
+
+.main-nav a:hover, 
+.main-nav a.active {
+
+  color: #d30b37;
+
+
+}
+
 
 * {
   box-sizing: border-box;
@@ -126,8 +139,32 @@ global styles
 --------------------------------------------- 
 */
 
+
+.contactbutton:hover {
+
+  background-color:rgb(245, 108, 108);
+  opacity: 0.9;
+  
+}
+
+
+.contactbutton{
+
+  border-radius: 15px;
+}
+
+
+/* .taptosearchbutton {
+
+  border-radius: 7px;
+} */
+
+
+
 .add-white{
   color: #fff !important;
+  
+  letter-spacing: 1px;
 }
 html,
 body {
@@ -195,18 +232,21 @@ body {
 
 .main-white-button a {
   display: inline-block;
-  font-size: 14px;
-  padding: 12px 18px;
-  background-color: #fff;
-  color: #2a2a2a;
+  font-size: 17px;
+  padding: 14px 20px;
+  background-color: #eac329b6;
+  color: #0c0b0b;
   text-align: center;
   font-weight: 500;
   text-transform: capitalize;
   transition: all .3s;
+  border-radius: 20px;
+  border-color: #0c0b0b;
 }
 
 .main-white-button a:hover {
-  opacity: 0.9;
+  opacity: 0.8;
+  background-color: rgba(236, 56, 56, 0.733);
 }
 
 .main-dark-button a {
@@ -1044,7 +1084,7 @@ Coming Events // province blockk
   /* -webkit-text-fill-color:transparent; */
   /* -webkit-background-clip:text; */
   margin: 100px 0px;
-  background-image: linear-gradient(rgba(68, 195, 234, 0.426), rgba(219, 247, 35, 0.037)), url(../images/op.jpg);
+  background-image: linear-gradient(rgba(49, 43, 6, 0.267), rgba(247, 35, 56, 0.037)), url(../images/jansy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -1085,9 +1125,16 @@ Coming Events // province blockk
   margin-top: -22.5px;
 }
 
+
+
 .event-item .thumb img {
   width: 100%;
   overflow: hidden;
+  border-radius: 90px;
+  border-color:blueviolet ;
+  box-shadow: #232d39;
+  
+  
   
   /* position:absolute; */
   
@@ -1096,6 +1143,7 @@ Coming Events // province blockk
 .event-item .down-content {
   background-color: #fff;
   padding: 30px;
+  border-radius: 25px;
   /* position:absolute; */
 }
 
@@ -1103,7 +1151,7 @@ Coming Events // province blockk
   font-size: 22px;
   font-weight: 700;
   color: #2a2a2a;
-  margin-bottom: 25px;;
+  margin-bottom: 40px;;
   /* position:absolute;
  */
  
@@ -1113,7 +1161,7 @@ Coming Events // province blockk
   font-size: 14px;
   color: #2a2a2a;
   font-weight: 300;
-  margin-bottom: 15px;;
+  margin-bottom: 25px;;
 }
 
 .event-item .down-content ul li:last-child {

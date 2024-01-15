@@ -849,7 +849,7 @@ Show Events Carousel
 
 .owl-show-events .owl-nav {
   position: absolute;
-  width: 100%;
+  width: 60%;
   top: 50%;
   transform: translateY(5px);
   /* margin-left:60%; */

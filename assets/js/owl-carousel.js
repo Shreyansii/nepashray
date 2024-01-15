@@ -24,6 +24,26 @@
 	 * @param {HTMLElement|jQuery} element - The element to create the carousel for.
 	 * @param {Object} [options] - The options
 	 */
+
+	// var owl = $('#owlHero');
+
+	// owl.owlCarousel({
+	// 	items:1,
+	// 	lazyLoad:true,
+	// 	loop:true,
+	// 	margin: 0,
+	// 	nav: true,
+	// 	dots: true,
+	// 	responsiveRefreshRate: 10
+	// });
+
+	// owl.on('loaded.owl.lazy', function(event) {
+	// 	$('#hero-content').fadeIn('1000');
+	// });
+
+
+
+
 	function Owl(element, options) {
 
 		/**

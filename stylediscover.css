@@ -264,22 +264,22 @@ header .navbar {
 }
 
 /* Style the front side (fallback if image is missing) */
-.flip-card-front {
+/* .flip-card-front {
   background-color: #bbb;
   color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  /* background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
-}
+} */
 
-.flippies{
-  justify-content: center;
+/* .flippies{ */
+  /* justify-content: center;
   align-items: center;
   display:flex;
   flex-wrap: wrap;
   
-}
+} */ *

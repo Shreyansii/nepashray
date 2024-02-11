@@ -63,7 +63,7 @@ header .navbar {
 .hero-section {
   height: 100vh;
   /* background-image: url("assets/images/madh.jpg"); */
-  background-image: linear-gradient(rgba(185, 185, 8, 0.175), rgba(255, 225, 33, 0.044)), url(assets/images/povgg.jpg);
+  /* background-image: linear-gradient(rgba(185, 185, 8, 0.175), rgba(255, 225, 33, 0.044)), url(assets/images/povgg.jpg); */
   background-position: center;
   background-size: cover;
   position: relative;

@@ -94,6 +94,19 @@ transition: .3s;
 
 }
 
+.commentInput {
+  width: 100%;
+  /* Additional styling if needed */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
 
 * {
   box-sizing: border-box;
@@ -755,7 +768,9 @@ banner
 }
 
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 
